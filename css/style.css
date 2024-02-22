@@ -1,0 +1,165 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/*navigation*/
+.navigation {
+	padding: 15px;
+	text-align: center;
+}
+
+nav {
+	position: sticky;
+	top: 0px;
+	z-index: 100;
+}
+
+.logo {
+	margin-bottom: 10px;
+}
+
+.menu {
+	display: inline-block;
+	list-style: none;
+	margin: 0px 20px;
+}
+
+.menu_items {
+	margin-bottom: 0px;
+}
+
+.menu a {
+	text-decoration: none;
+	color: black;
+}
+
+
+/*slider*/
+.slider {
+	background-image: url("../images/slider\ bg1.jpeg");
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	color: wheat;
+	padding: 150px 0px 0px 0px;
+}
+
+.slider_head1 {
+	color: grey;
+	font-size: 65px;
+}
+
+.slider_head1 span {
+	color: rgb(255, 95, 95);
+}
+
+.slider_head2 {
+	font-size: 150px;
+}
+
+.slider_btn {
+	margin: 180px 0px 100px 0px;
+}
+
+
+/*section 1*/
+.sec1 {
+	padding: 100px 0px;
+}
+
+.sec1_row {
+	align-items: center;
+}
+
+.sec1_img {
+	width: 100%;
+	border-radius: 20px;
+}
+
+.sec1_small_head {
+	width: 100px;
+	background-color: black;
+	color: white;
+	padding: 5px 10px;
+	border-radius: 10px;
+}
+
+.sec1_head {
+	margin: 30px 0px 50px 0px;
+}
+
+.sec1_para {
+	color:rgba(107,107,107,1.00);
+}
+
+.sec1_para span {
+	color:rgba(31,31,31,1.00);
+}
+
+
+/*section 2*/
+.sec2_small_head {
+	width: 132px;
+	background-color: black;
+	color: white;
+	padding: 5px 10px;
+	border-radius: 10px;
+}
+
+.sec2_img1 {
+	width: 100%;
+}
+
+
+/*section 3*/
+.sec3_small_head1 {
+	width: 80px;
+}
+
+.sec3_img {
+	border-radius: 0px 0px 50px 0px;
+}
+
+.sec4_img {
+	border-radius: 50px 0px 0px 0px;
+}
+
+/*section 7*/
+.sec7 {
+	padding: 50px 0px;
+}
+
+.sec7_row {
+	align-items: center;
+}
+
+.sec7_img {
+	width: 100%;
+	border-radius: 20px;
+}
+
+.sec7_small_head {
+	width: 132px;
+	background-color: black;
+	color: white;
+	padding: 5px 10px;
+	border-radius: 10px;
+}
+
+.sec7_head {
+	margin: 30px 0px 20px 0px;
+}
+
+.sec7_para {
+	color:rgba(107,107,107,1.00);
+}
+
+.sec7_para span {
+	color:rgba(31,31,31,1.00);
+}
